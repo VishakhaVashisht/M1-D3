@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
@@ -14,27 +15,7 @@
         integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
         crossorigin="anonymous"></script>
     <title>Travel Agency</title>
-    <style>
-       body{ font-family: 'Dancing Script', cursive;background: rgba( 255, 255, 255, 0.40 );
 
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 10.5px );
--webkit-backdrop-filter: blur( 10.5px );
-border-radius: 10px;
-border: 1px solid rgba( 255, 255, 255, 0.18 );}
-#dealOfWeek {
-    padding: 24px;
-    margin-top: -33px;
-    text-align: center;
-}
-nav.navbar.navbar-expand-lg {
-    background: black;
-    font-size: 24px;
-    color: #fff;
-}a.navbar-brand {
-    color: #fff !important;
-}
-    </style>
 </head>
 
 <body>
@@ -42,7 +23,8 @@ nav.navbar.navbar-expand-lg {
         <!--Menu Section-->
         <nav class="navbar navbar-expand-lg ">
             <a class="navbar-brand" href="#">
-                <img src="https://mir-s3-cdn-cf.behance.net/projects/404/c604ac120087941.Y3JvcCwzMDAwLDIzNDYsMCwzMjY.jpg"  width="30" height="30" alt="Travel_agency"></a>
+                <img src="https://mir-s3-cdn-cf.behance.net/projects/404/c604ac120087941.Y3JvcCwzMDAwLDIzNDYsMCwzMjY.jpg"
+                    width="30" height="30" alt="Travel_agency"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -51,21 +33,25 @@ nav.navbar.navbar-expand-lg {
                 <div class="navbar-nav">
                     <a class="" href=""></a>
                     <a class="nav-link " href="#jumbotron">Jumbotron</a>
-                    <a class="nav-link" href="#dealOfWeek"  name="dealOfWee">Deal of the Week</a>
-                    <a class="nav-link" href=#welcomeSummer name = "Welcome Summer">Welcome Summer</a>
-                    <a class="nav-link" href=#contact name = "Contact">Contact</a>
+                    <a class="nav-link" href="#dealOfWeek" name="dealOfWee">Deal of the Week</a>
+                    <a class="nav-link" href=#welcomeSummer name="Welcome Summer">Welcome Summer</a>
+                    <a class="nav-link" href=#contact name="Contact">Contact</a>
                     <a class="nav-link " href="#" tabindex="-1" aria-disabled="true"></a>
                 </div>
             </div>
         </nav>
         <!--End-->
-<section id ="jumbotron">
-        <div class="jumbotron ">
-            <h1 >Strivers Travel Agency</h1>
-            <hr>
-            <p>A survey by the World Food Travel Association found that 59 percent of respondents believe food and drink are more important to them now when they travel than they were five years earlier. In addition, over the past decade, culinary-related travel has evolved from straightforward dining to experiences that highlight where food comes from and the cultural and geographic factors that influence it.</p>
-        </div>
-    </section>
+        <section id="jumbotron">
+            <div class="jumbotron ">
+                <h1>Strivers Travel Agency</h1>
+                <hr>
+                <p>A survey by the World Food Travel Association found that 59 percent of respondents believe food and
+                    drink are more important to them now when they travel than they were five years earlier. In
+                    addition, over the past decade, culinary-related travel has evolved from straightforward dining to
+                    experiences that highlight where food comes from and the cultural and geographic factors that
+                    influence it.</p>
+            </div>
+        </section>
         <!-- "Deal of the Week"-->
         <section id="dealOfWeek">
             <h2>Deal Of The Week</h2>
@@ -107,50 +93,221 @@ nav.navbar.navbar-expand-lg {
 
         </section>
         <!--Welcome Deal-->
-        <section id="welcomeSummer" >
+        <section id="welcomeSummer">
             <h2>Summer Deals</h1>
-        <div class="row">
-            <div class="col-xl-2 col-md-4 col-sm-6">
-                <img style="max-height: 250px; max-width: 200px;" class="img-thumbnail" src="https://media.tacdn.com/media/attractions-splice-spp-674x446/07/03/1c/9c.jpg"
-                    alt="">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis molestias voluptatibus rerum nostrum, soluta corrupti minima saepe reiciendis, laboriosam eaque deserunt cum magnam iste! Obcaecati libero cum consequatur repellat fugiat?</p>
-                
+                <div class="row">
+                    <div class="col-sm-2  col-md-4 col col-xl-6">
+                        <div class="welcomeContent">
+                            <img src="https://media.tacdn.com/media/attractions-splice-spp-674x446/07/03/1c/9c.jpg"
+                                alt="">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis molestias voluptatibus
+                                rerum nostrum, soluta corrupti minima saepe reiciendis, laboriosam eaque deserunt cum
+                                magnam iste! Obcaecati libero cum consequatur repellat fugiat?</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-2  col-md-4 col col-xl-6">
+                        <div class="welcomeContent">
+                            <img " src="
+                                https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg/2560px-Colosseum_in_Rome%2C_Italy_-_April_2007.jpg"
+                                alt="">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, suscipit fugit eligendi
+                                quibusdam dolor, vel officiis, assumenda saepe nam nulla sed distinctio ipsum odit.
+                                Beatae consectetur soluta voluptatibus sequi blanditiis.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-2  col-md-4 col col-xl-6">
+                        <div class="welcomeContent">
+                            <img src="https://d2bgjx2gb489de.cloudfront.net/gbb-blogs/wp-content/uploads/2017/05/16213722/Berlin_city_viewXL.jpg"
+                                alt="">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error, dicta illo tenetur est
+                                voluptate sapiente, doloribus in magni quo eaque a, molestiae aspernatur. Aut reiciendis
+                                soluta numquam veritatis eveniet quos.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-2  col-md-4 col col-xl-6">
+                        <div class="welcomeContent">
+                            <img src="https://www.history.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTYyNDg1MjE3MTI1Mjc5Mzk4/topic-london-gettyimages-760251843-promo.jpg"
+                                alt="">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam veniam maxime illum
+                                culpa quas tenetur non a, eos dicta esse magnam voluptatem voluptatibus deleniti quasi
+                                in nam vero reprehenderit hic!</p>
+                        </div>
+                    </div>
+                    <div class=" col-sm-2  col-md-4 col col-xl-6 ">
+                        <div class="welcomeContent">
+                            <img src="https://i0.wp.com/italiantripabroad.it/Blog/wp-content/uploads/2019/11/View-of-the-bay-of-Naples-from-Castel-dellOvo.jpg?resize=1020%2C681&ssl=1"
+                                alt="">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab cupiditate impedit eveniet
+                                numquam! Perferendis minima doloribus sint, architecto quod magni repellendus fuga illum
+                                itaque eligendi voluptatibus ratione odit temporibus et.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-2  col-md-4 col col-xl-6">
+                        <div class="welcomeContent">
+                            <img src="https://static2-viaggi.corriereobjects.it/wp-content/uploads/2015/06/pisa-getty-1080x794.jpg?v=136980"
+                                alt="">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique culpa sunt deleniti,
+                                saepe quasi quis repudiandae voluptas error labore. Officiis sequi, aliquam dicta
+                                accusamus temporibus nesciunt unde similique dolorum molestiae?</p>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section id='dealoftheday'>
+            <h2>Deal of the day</h1>
+                <div class="row">
+                    <div class="col-8">
+                        <div class="image">
+                            <img src="https://www.iflr.com/Media/images/iflr/1-cities-3/patrick-robert-doyle-eb8dmXNOGP4-unsplash.jpg"
+                                alt="image-swit"> /
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="content">
+                            <h5>Switzerland/h5>
+                                <input type="date" name="myInput" value="2021-07-07">
+                                <p>Price:£800</p>
+                                <h6>Treats with a view</h6>
+                                <details>
+                                    <summary>
+                                        Switzerland is a land of railways. You can be gliding through Alpine forests on
+                                        the Glacier Express one day and clacking up Mount Pilatus on the world’s
+                                        steepest cogwheel the next. Each is beautifully engineered and surrounded by
+                                        stunning mountain scenery. And with all transfers to resort by Swiss Rail,
+                                        you'll be able to experience the trains from the moment you arrive.
+                                    </summary>
+                                </details>
+
+
+                                <input type="submit" name="myInput" value="Click_me">
+                        </div>
+
+                    </div>
+        </section>
+        <!--last Minute-->
+        <section id="lastMinute">
+            <div class="lastSectionContent">
+                <h2> In hurry!!</h2>
+                <h4>Check out our latest deals</h4>
             </div>
-            <div class="col-xl-2 col-md-4 col-sm-6">
-                <img style="max-height: 250px; max-width: 200px;" class="img-thumbnail" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg/2560px-Colosseum_in_Rome%2C_Italy_-_April_2007.jpg"
-                    alt="">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, suscipit fugit eligendi quibusdam dolor, vel officiis, assumenda saepe nam nulla sed distinctio ipsum odit. Beatae consectetur soluta voluptatibus sequi blanditiis.</p>
-                
+            <div class="lastDeals">
+                <div class="row">
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://images.freeimages.com/images/small-previews/491/country-1375837.jpg"
+                                class="card-img-top" alt="image-1">
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://images.freeimages.com/images/small-previews/491/country-1375837.jpg"
+                                class="card-img-top" alt="image-1">
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://images.freeimages.com/images/small-previews/491/country-1375837.jpg"
+                                class="card-img-top" alt="image-1">
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://images.freeimages.com/images/small-previews/491/country-1375837.jpg"
+                                class="card-img-top" alt="image-1">
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-xl-2 col-md-4 col-sm-6">
-                <img style="max-height: 250px; max-width: 200px;" class="img-thumbnail" src="https://d2bgjx2gb489de.cloudfront.net/gbb-blogs/wp-content/uploads/2017/05/16213722/Berlin_city_viewXL.jpg"
-                    alt="">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error, dicta illo tenetur est voluptate sapiente, doloribus in magni quo eaque a, molestiae aspernatur. Aut reiciendis soluta numquam veritatis eveniet quos.</p>
-                
+        </section>
+        <!--Testinomial-->
+        <section id="testimonial">
+            <h2>Hear from Our client</h2>
+            <div class="row">
+                <div class="col-6">
+                    <div class="testimonial-client">
+                        <img src='image/avataaars.png' alt='client'>
+                        <p>uwrdfyegiotubhoifuivdyafcudtfwe8orb</p>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="testimonial-client">
+                        <img src='image/avataaars.png' alt='client'>
+                        <p>uwrdfyegiotubhoifuivdyafcudtfwe8orb</p>
+                    </div>
+                </div>
             </div>
-            <div class="col-xl-2 col-md-4 col-sm-6">
-                <img style="max-height: 250px; max-width: 200px;" class="img-thumbnail" src="https://www.history.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTYyNDg1MjE3MTI1Mjc5Mzk4/topic-london-gettyimages-760251843-promo.jpg"
-                    alt="">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam veniam maxime illum culpa quas tenetur non a, eos dicta esse magnam voluptatem voluptatibus deleniti quasi in nam vero reprehenderit hic!</p>
-                
-            </div>
-            <div class="col-xl-2 col-md-4 col-sm-6">
-                <img style="max-height: 250px; max-width: 200px;" class="img-thumbnail" src="https://i0.wp.com/italiantripabroad.it/Blog/wp-content/uploads/2019/11/View-of-the-bay-of-Naples-from-Castel-dellOvo.jpg?resize=1020%2C681&ssl=1"
-                    alt="">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab cupiditate impedit eveniet numquam! Perferendis minima doloribus sint, architecto quod magni repellendus fuga illum itaque eligendi voluptatibus ratione odit temporibus et.</p>
-                
-            </div>
-            <div class="col-xl-2 col-md-4 col-sm-6">
-                <img style="max-height: 250px; max-width: 200px;" class="img-thumbnail" src="https://static2-viaggi.corriereobjects.it/wp-content/uploads/2015/06/pisa-getty-1080x794.jpg?v=136980"
-                    alt="">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique culpa sunt deleniti, saepe quasi quis repudiandae voluptas error labore. Officiis sequi, aliquam dicta accusamus temporibus nesciunt unde similique dolorum molestiae?</p>
-                
-            </div>
-        </div>
         </section>
         <!---footer -->
-        <footer id = "contact">
+        <footer id="contact" class="bg-white">
+            <div class="container py-5">
+                <div class="row py-4">
+                    <div class="col-lg-4 col-md-6 mb-4 mb-lg-0"><img src="img/logo.png" alt="" width="180" class="mb-3">
+                        <p class="font-italic text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                            do eiusmod tempor incididunt.</p>
+                        <ul class="list-inline mt-4">
+                            <li class="list-inline-item"><a href="#" target="_blank" title="twitter"><i
+                                        class="fa fa-twitter"></i></a></li>
+                            <li class="list-inline-item"><a href="#" target="_blank" title="facebook"><i
+                                        class="fa fa-facebook"></i></a></li>
+                            <li class="list-inline-item"><a href="#" target="_blank" title="instagram"><i
+                                        class="fa fa-instagram"></i></a></li>
+                            <li class="list-inline-item"><a href="#" target="_blank" title="pinterest"><i
+                                        class="fa fa-pinterest"></i></a></li>
+                            <li class="list-inline-item"><a href="#" target="_blank" title="vimeo"><i
+                                        class="fa fa-vimeo"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+                        <h6 class="text-uppercase font-weight-bold mb-4">Quick Access</h6>
+                        <ul class="list-unstyled mb-0">
+                            <a class="nav-link " href="#jumbotron">Jumbotron</a>
+                            <a class="nav-link" href="#dealOfWeek" name="dealOfWee">Deal of the Week</a>
+                            <a class="nav-link" href=#welcomeSummer name="Welcome Summer">Welcome Summer</a>
+                            <a class="nav-link" href=#contact name="Contact">Contact</a>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-lg-0">
+                        <h6 class="text-uppercase font-weight-bold mb-4">Newsletter</h6>
+                        <p class="text-muted mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At itaque
+                            temporibus.</p>
+                        <div class="p-1 rounded border">
+                            <div class="input-group">
+                                <input type="email" placeholder="Enter your email address"
+                                    aria-describedby="button-addon1" class="form-control border-0 shadow-0">
+                                <div class="input-group-append">
+                                    <button id="button-addon1" type="submit" class="btn btn-link"><i
+                                            class="fa fa-paper-plane"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+            <!-- Copyrights -->
+            <div class="bg-light py-4">
+                <div class="container text-center">
+                    <p class="text-muted mb-0 py-2">© 2021 <Stripers:Travel-Agency></Stripers:Travel-Agency> All rights
+                        reserved.</p>
+                </div>
+            </div>
+            <!-- End -->
         </footer>
     </section>
 </body>
