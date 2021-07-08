@@ -9,22 +9,31 @@ body {
     border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
-#dealOfWeek {
+#dealOfWeek{
     padding: 24px;
     margin-top: -33px;
     text-align: center;
 }
-
+#dealoftheday{
+    padding: 24px;
+    text-align: center;
+}
 nav.navbar.navbar-expand-lg {
-    background: black;
+    background: #6F83C5;
     font-size: 24px;
     color: #fff;
+}
+section.navigation {
+    display: inherit;
 }
 
 a.navbar-brand {
     color: #fff !important;
 }
-
+a.nav-link:hover {
+    background-color: rgba(138, 146, 201, 0.48);
+    box-shadow: 1px 2px;
+}
 #welcomeSummer, #lastMinute {
     padding: 12px;
     text-align: center;
@@ -38,6 +47,8 @@ a.navbar-brand {
     width: 301px;
     height: 300px;
     border: 1px solid #000;
+    filter: contrast(130%);
+    border-radius: 30px;
 }
 .jumbotron {
     background: rgba( 155, 155, 155, 0.10 );
@@ -45,11 +56,53 @@ a.navbar-brand {
     -webkit-backdrop-filter: blur( 3.0px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
+    text-align: center;
 }
 
 footer a.nav-link {
     color: #000 !important;
 }
 a.nav-link {
-    color: #fff !important;
+    color: #000 !important;
+    margin-right: 42px;text-transform: capitalize;
+}
+.testimonial-client img {
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+    border-radius: 50%;
+    box-shadow: 4px 4px;
+}
+#welcomeSummer {
+    box-shadow: 5px 5px 10px 1px #000 inset;
+}
+
+/**/
+@media only screen and (max-width: 600px) and (min-width:200px){
+    
+#dealoftheday{
+    display: none;
+}
+}
+
+blockquote {
+    background: #f9f9f9;
+    border-left: 10px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+  }
+  blockquote:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+  }
+  blockquote p {
+    display: inline;
+  }
+    #testimonial {
+    text-align: center;
 }
